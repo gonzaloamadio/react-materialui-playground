@@ -11,6 +11,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 // USE OF GRIDS AND CARDS
 import CourseList from "./components/CourseList";
 import Posts from "./components2/Posts";
+import Contact from "./components2/Contact";
 
 //  --------------- 3rd examples
 // USE OF: Diaglog (modal), theme and style, grid, tabs
@@ -41,6 +42,7 @@ function App() {
         </Route>
         <Route path="/posts">
           <Posts />
+          <Contact />
         </Route>
         <Route path="/" exact render={() => <h1>Home</h1>} />
         <Route path="/third">
